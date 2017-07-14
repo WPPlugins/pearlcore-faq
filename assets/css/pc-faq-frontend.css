@@ -1,0 +1,111 @@
+
+.pc_faq_single_question,.pc_faq_question_wrapper,.pc_faq_like_wrapper,.pc_faq_answer_wrapper{
+    float: left;
+    width: 100%;
+}
+.pc_faq_single_question{
+    padding-bottom: 5px;
+}
+.pc_faq_title{
+    font-weight: bold;
+    padding: 3px 2px;
+    font-size: 18px;
+}
+.pc_faq_question_wrapper{
+    font-size: 14px;
+    margin: 0;
+    display: block;
+    background-color: #f3f3f3;
+    border: 1px solid #e0e0e0;
+    padding: 6px 7px;
+    cursor: pointer;
+}
+.pc_faq_question{
+    float: left;
+    width: 80%;
+}
+.pc_faq_icon{
+    float: left;
+    width: 20%;
+}
+.pc_faq_icon{
+    text-align: right;
+    vertical-align: middle;
+}
+.pc_faq_icon i{
+    font-size: 16px;
+}
+.pc_faq_question_wrapper .pc_faq_question{
+    float:left;
+}
+.pc_faq_answer_wrapper{
+    font-size: 12px;
+    margin: 0px;
+    line-height: 18px;
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    display: none;
+}
+.pc_faq_answer_wrapper .pc_faq_answer{
+    padding: 6px 7px;
+}
+.pc_faq_open .pc_faq_answer_wrapper{
+    display: block;
+}
+
+/**
+* Like CSS
+*/
+.pc_faq_like_wrapper{
+    border-top: 1px solid #e0e0e0;
+    padding: 3px 6px 1px;
+}
+.pc_faq_like_wrapper .pc_faq_like_button{
+    float: left;
+    margin-right: 10px;
+}
+.pc_faq_wrapper .pc_faq_like_button .count{
+    padding-right: 5px;
+}
+.pc_faq_wrapper .pc_faq_like_button i{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pc_faq_like_icon.pc_faq_dislike .fa-thumbs-o-up{
+    color: #5890ff;
+}
+.pc_faq_like_icon .fa-spinner{
+    color: #000;
+}
+
+/**
+* Date CSS
+*/
+.pc_faq_date_author_detail{
+    float: right;
+    text-align: left;
+}
+.pc_faq_date_author_detail span{
+    text-align: left;
+}
+
+/**
+* FAQ Add success message
+*/
+
+.pc_faq_ask_question_wrapper .pc_faq_ask_head span{
+    font-weight: bold;
+    padding: 3px 2px;
+    font-size: 18px;
+}
+.pc_faq_add_success{
+    color: #3c763d;
+    background-color: #dff0d8;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+}

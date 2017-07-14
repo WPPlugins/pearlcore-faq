@@ -1,0 +1,228 @@
+
+/**
+* Spinner and message CSS
+*/
+.pc_faq_setting_overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.5;
+    display: none;
+    opacity: 0.7;
+    z-index: 9999;
+}
+.pc_setting_spinner_wrapper{
+    z-index: 9999;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    opacity: 1 !important;
+    display: none;
+}
+.pc_setting_spinner{
+    z-index: 10000;
+}
+.pc_setting_spinner div{
+    z-index: 10000;
+}
+.pc_setting_spinner i{
+    font-size: 75px;
+    color: #fff;
+}
+.pc_setting_message{
+    background: #EAE3E3;
+    border-left: 0;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 0;
+    font-size: 18px;
+    z-index: 10001;
+    max-width: 500px;
+    text-align: center;
+    right: initial;
+
+}
+.pc_setting_message .pc_setting_success, .pc_setting_message .pc_setting_error {
+    padding: 18px 12px;
+    border-left: 4px solid #fff;
+}
+.pc_setting_message .pc_setting_success{
+    border-color: #7ad03a;
+}
+.pc_setting_message .pc_setting_error{
+    border-color: red;
+}
+
+
+/**
+* Product FAQ Popup CSS
+*/
+.pc_faq_product_single_fields{
+    border-bottom: 1px solid #eee;
+}
+.pc_product_add_button_wrapper{
+    text-align: right;
+    padding: 10px 0;
+    float: left;
+    width: 100%;
+}
+.pc_product_add_button_wrapper input{
+    margin-right: 10px !important;
+}
+.pc_faq_fields_popup{
+    z-index: 99999;
+    background-color: #fff;
+    opacity: 1;
+    width: 630px;
+    border: 1px solid #ccc;
+}
+.pc_faq_fields_popup .pc_faq_head{
+    border-bottom: 2px solid #eee;
+    float: left;
+    width: 100%;
+}
+.pc_faq_fields_popup .pc_faq_head span{
+    float: left;
+    width: 48%;
+    padding: 7px 2px;
+}
+.pc_faq_fields_popup .pc_faq_head .pc_faq_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pc_faq_fields_popup .pc_faq_head .pc_faq_close{
+    text-align: right;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+    float: right;
+}
+.pc_faq_fields_popup .pc_faq_body, .pc_faq_fields_popup .options_group{
+    float: left;
+    width: 100%;
+}
+.pc_faq_fields_popup .pc_faq_body textarea{
+    height: 134px;
+}
+.pc_product_save_button_wrapper{
+    text-align: right;
+    width: 97%;
+    padding-top: 5px;
+}
+.pc_save_faq_button{
+    margin-right: 20px !important;
+    margin-bottom: 7px !important;
+}
+
+/**
+* Product Faq Delete CSS
+*/
+.pc_faq_delete_wrapper{
+    border-top: 1px solid #e0e0e0;
+    padding: 3px 6px 1px;
+}
+
+.pc_faq_delete_wrapper .pc_delete_button{
+    float: left;
+    margin-right: 10px;
+}
+.theme-a .pc_faq_delete_wrapper .pc_delete_button{
+    float: none;
+}
+.pc_faq_delete_wrapper .pc_delete_button span{
+    color:#a94442;
+    cursor: pointer;
+}
+
+/**
+* Faq's CSS
+*/
+
+.pc_faq_single_question,.pc_faq_question_wrapper,.pc_faq_like_wrapper,.pc_faq_answer_wrapper{
+    float: left;
+    width: 100%;
+}
+.pc_faq_single_question{
+    padding-bottom: 5px;
+}
+.pc_faq_title{
+    font-weight: bold;
+    padding: 3px 2px;
+    font-size: 18px;
+}
+.pc_faq_question_wrapper{
+    font-size: 14px;
+    margin: 0;
+    display: block;
+    background-color: #f3f3f3;
+    border: 1px solid #e0e0e0;
+    padding: 6px 7px;
+    cursor: pointer;
+}
+.pc_faq_question{
+    float: left;
+    width: 80%;
+}
+.pc_faq_icon{
+    float: left;
+    width: 20%;
+}
+.pc_faq_icon{
+    text-align: right;
+    vertical-align: middle;
+}
+.pc_faq_icon i{
+    font-size: 16px;
+}
+.pc_faq_question_wrapper .pc_faq_question{
+    float:left;
+}
+.pc_faq_answer_wrapper{
+    font-size: 12px;
+    margin: 0px;
+    line-height: 18px;
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    display: none;
+}
+.pc_faq_answer_wrapper .pc_faq_answer{
+    padding: 6px 7px;
+}
+.pc_faq_open .pc_faq_answer_wrapper{
+    display: block;
+}
+
+/**
+* Like CSS
+*/
+.pc_faq_like_wrapper{
+    border-top: 1px solid #e0e0e0;
+    padding: 3px 6px 1px;
+}
+.pc_faq_like_wrapper .pc_faq_like_button{
+    float: left;
+    margin-right: 10px;
+}
+.pc_faq_like_wrapper .pc_faq_like_button .count{
+    padding-right: 5px;
+}
+.pc_faq_like_wrapper .pc_faq_like_button i{
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pc_faq_like_icon.pc_faq_dislike .fa-thumbs-o-up{
+    color: #5890ff;
+}
+.pc_faq_like_icon .fa-spinner{
+    color: #000;
+}
+
+@media screen and (max-width: 640px){
+    .pc_faq_fields_popup{
+        width: 95%;
+    }
+}

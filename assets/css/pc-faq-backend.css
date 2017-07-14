@@ -1,0 +1,72 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+
+/**
+* Field CSS
+*/
+.pcs_field_left{
+    width:30%;
+    float: left;
+}
+.pcs_field_left h4{
+    margin: 0;
+    font-size: 15px;
+}
+.pcs_field_right{
+    width: 70%;
+    float: left;
+}
+
+.group .odd.section {
+    background-color: #f9f9f9;
+}
+.group .even.section {
+    background-color: #ecf0f1;
+}
+
+
+/**
+* Sub Section CSS
+*/
+.section.section-info{
+    background-color: #E5E5E5;
+}
+.section.section-info h4{
+    margin: 0;
+    padding: 0px 3px 0px 0;
+    font-size: 21px;
+}
+.pcs_sub_section_desc{
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 6px;
+    background-color: #fff;
+}
+
+.pc_shortcode_content{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    word-spacing: 4px;
+}
+
+
+/**
+* About CSS
+*/
+.pc_about_wrapper{
+    background-color: #0073AA;
+    padding: 10px;
+    border-radius: 5px;
+}
+.pc_about_wrapper span{
+    color: #fff;
+    font-size: 20px;
+}
+.pc_about_wrapper a{
+    text-decoration: none;
+    color: #DDDDDD;
+}
